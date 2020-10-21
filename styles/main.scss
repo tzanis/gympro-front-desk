@@ -1,0 +1,21 @@
+$body-bg: #fefefe;
+$body-color: #333;
+$border-radius: .3rem;
+
+$theme-colors: (
+  primary: #2c6fdb,
+  //"info": tomato,
+  //"danger": #000,
+  //default: #eee,
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+@import "_layout";
+@import "_typography";
+@import "_cards";
+
+a {
+  cursor: pointer;
+}
